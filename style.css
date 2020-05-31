@@ -1,0 +1,152 @@
+body {
+  background: #e0d36e;
+  line-height: 200%;
+  border: solid #278a25;
+  border-width: thick;
+}
+#tribute-header {
+  position: relative;
+  text-align: center;
+}
+h1 {
+  font-size: 80px;
+  font-family: cursive, sans-serif;
+  color: #600c8a;
+}
+#warning {
+  font-size: 25px;
+  color: #ff0000;
+  padding-bottom: 20px;
+  animation-name: flash;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes flash {
+  0% {
+    color: #ff0000;
+  }
+  50% {
+    color: #000000;
+  }
+  100% {
+    color: #ff0000;
+  }
+}
+.white-square-container {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+.white-square {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  width: 600px;
+  max-width: 100%;
+  max-height: 100%;
+  background-color: #ffffff;
+  border-radius: 10%;
+  text-align: center;
+  padding-top: 50px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  max-width: 80%;
+  max-height: 100%;
+  right: 0%;
+  left: 0%;
+  border-radius: 10%;
+}
+#img-caption {
+  position: relative;
+  font-size: 15px;
+  text-align: center;
+  top: -10px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+h3 {
+  position: relative;
+  text-align: center;
+  font-size: 35px;
+}
+h4 {
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 50px;
+}
+h5 {
+  position: relative;
+  text-align: center;
+  font-size: 23px;
+  padding-bottom: 50px;
+}
+#timeline-content {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+h6 {
+  position: relative;
+  font-size: 21px;
+  text-align: left;
+  color: #600c8a;
+}
+#tribute-info {
+  position: relative;
+}
+li {
+  position: relative;
+  font-size: 20px;
+}
+p {
+  position: relative;
+  font-size: 18px;
+}
+#stone-mask-text {
+  padding-bottom: 50px;
+}
+#jojo-body-text {
+  padding-bottom: 40px;
+}
+#za-warudo-text {
+  padding-bottom: 50px;
+}
+#dio-army-text {
+  padding-bottom: 50px;
+}
+#dio-undoing-text {
+  padding-bottom: 50px;
+}
+#part-two {
+  text-align: left;
+  right: 40px;
+}
+#dio-quote {
+  text-align: center;
+  font-family: cursive;
+  font-size: 30px;
+  letter-spacing: 2px;
+  padding-top: 0px;
+  padding-bottom: 50px;
+}
+#more-info {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 0px;
+}
+a:hover {
+  color: #278a25;
+}
